@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
 body {
     margin: 0px;
     padding: 0px 0px;
@@ -51,7 +53,7 @@ li .home:hover {
     background-color: #ffc300;
     padding: 50px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-size: xx-large;
 }
 
