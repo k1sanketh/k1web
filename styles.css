@@ -112,7 +112,7 @@ li .home:hover {
 }
 
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:350px) {
     .form {
         width: 100%;
 
