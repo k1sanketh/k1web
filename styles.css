@@ -38,9 +38,6 @@ li .navbar_text {
     text-decoration: none;
 }
 
-.navbar_text:active {
-    color: beige;
-}
 
 li .about {
     font-family: sans-serif;
@@ -51,9 +48,6 @@ li .about {
     text-decoration: none;
 }
 
-.about:active {
-    color: beige;
-}
 
 
 .home {
@@ -116,6 +110,7 @@ li .home:hover {
     width: 60px;
     padding: 0px;
 }
+
 
 @media screen and (min-width:480px) {
     .form {
