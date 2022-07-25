@@ -94,3 +94,10 @@ li .home:hover {
     width: 58px;
     padding: 0px;
 }
+
+@media screen and (min-width:480px) {
+    .form {
+        width: 100%;
+
+    }
+}
