@@ -25,6 +25,10 @@ ul {
     float: right;
 }
 
+.about {
+    float: right;
+}
+
 li .navbar_text {
     font-family: sans-serif;
     display: block;
@@ -33,6 +37,24 @@ li .navbar_text {
     padding: 20px 45px;
     text-decoration: none;
 }
+
+.navbar_text:active {
+    color: beige;
+}
+
+li .about {
+    font-family: sans-serif;
+    display: block;
+    color: #003566;
+    text-align: center;
+    padding: 20px 45px;
+    text-decoration: none;
+}
+
+.about:active {
+    color: beige;
+}
+
 
 .home {
     font-family: sans-serif;
@@ -90,8 +112,8 @@ li .home:hover {
     position: sticky;
     top: 0;
     float: left;
-    height: 58px;
-    width: 58px;
+    height: 58.7px;
+    width: 60px;
     padding: 0px;
 }
 
