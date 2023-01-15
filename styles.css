@@ -85,11 +85,23 @@ li .home:hover {
     text-decoration: none;
 }
 
-.channel:hover {
-    display: block;
-    padding: 25px 5px;
-    background-color: #003566;
+
+
+@keyframes changeColor {
+    from {
+        background-color: #001d3d;
+    }
+
+    to {
+        background-color: #02356c;
+    }
 }
+
+.channel:hover {
+    animation: changeColor 1s;
+    animation-fill-mode: forwards;
+}
+
 
 .form {
     text-align: center;
