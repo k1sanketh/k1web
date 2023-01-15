@@ -23,7 +23,7 @@ ul {
 li .navbar_text {
     font-family: sans-serif;
     display: block;
-    color: #004F60;
+    color: white;
     text-align: center;
     padding: 20px 45px;
     text-decoration: none;
@@ -50,6 +50,7 @@ li .home:hover {
     text-align: center;
     font-family: sans-serif;
     font-size: xx-large;
+    -webkit-text-fill-color: white;
 }
 
 .intro {

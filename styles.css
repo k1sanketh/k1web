@@ -32,7 +32,7 @@ ul {
 li .navbar_text {
     font-family: sans-serif;
     display: block;
-    color: #003566;
+    color: white;
     text-align: center;
     padding: 20px 45px;
     text-decoration: none;
@@ -42,7 +42,7 @@ li .navbar_text {
 li .about {
     font-family: sans-serif;
     display: block;
-    color: #003566;
+    color: white;
     text-align: center;
     padding: 20px 45px;
     text-decoration: none;
