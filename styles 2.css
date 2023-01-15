@@ -13,7 +13,7 @@ ul {
     margin: 0;
     padding: 0px 0px;
     overflow: hidden;
-    background-color: #ffc300;
+    background-color: #008080;
 }
 
 .navbar_text {
@@ -45,7 +45,7 @@ li .home:hover {
 
 .header {
     size: 0px;
-    background-color: #ffc300;
+    background-color: #008080;
     padding: 50px;
     text-align: center;
     font-family: sans-serif;
