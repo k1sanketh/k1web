@@ -29,6 +29,21 @@ li .navbar_text {
     text-decoration: none;
 }
 
+@keyframes Changecolor {
+    from {
+        background-color: #008080;
+    }
+
+    to {
+        background-color: #003b3b;
+    }
+}
+
+.navbar_text:hover {
+    animation: Changecolor 1s;
+    animation-fill-mode: forwards;
+}
+
 .home {
     font-family: sans-serif;
     float: left;

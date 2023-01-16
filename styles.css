@@ -48,6 +48,21 @@ li .about {
     text-decoration: none;
 }
 
+@keyframes Changecolor {
+    from {
+        background-color: #008080;
+    }
+
+    to {
+        background-color: #003b3b;
+    }
+}
+
+.about:hover {
+    animation: Changecolor 1s;
+    animation-fill-mode: forwards;
+}
+
 
 
 .home {
@@ -60,8 +75,19 @@ li .about {
     text-decoration: none;
 }
 
-li .home:hover {
-    background-color: rgb(63, 132, 147);
+@keyframes changecolor {
+    from {
+        background-color: #008080;
+    }
+
+    to {
+        background-color: #003b3b;
+    }
+}
+
+.navbar_text:hover {
+    animation: changecolor 1s;
+    animation-fill-mode: forwards;
 }
 
 .header {
@@ -78,7 +104,7 @@ li .home:hover {
     font-family: sans-serif;
     float: none;
     display: block;
-    background-color: #001d3d;
+    background-color: #005757;
     color: white;
     text-align: center;
     padding: 25px 45px;
@@ -89,11 +115,11 @@ li .home:hover {
 
 @keyframes changeColor {
     from {
-        background-color: #001d3d;
+        background-color: #005757;
     }
 
     to {
-        background-color: #02356c;
+        background-color: #014d4d;
     }
 }
 
